@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\GestaoSorteio\\GestaoSorteio.csproj": {}
+  },
+  "projects": {
+    "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\EuroMilhoesCliente\\EuroMilhoesCliente.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\EuroMilhoesCliente\\EuroMilhoesCliente.csproj",
+        "projectName": "EuroMilhoesCliente",
+        "projectPath": "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\EuroMilhoesCliente\\EuroMilhoesCliente.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\EuroMilhoesCliente\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\GestaoSorteio\\GestaoSorteio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\GestaoSorteio\\GestaoSorteio.csproj",
+        "projectName": "GestaoSorteio",
+        "projectPath": "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\GestaoSorteio\\GestaoSorteio.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\GestaoSorteio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\EuroMilhoesCliente\\EuroMilhoesCliente.csproj": {
+                "projectPath": "D:\\utad\\3ano\\2 semestre\\Sistemas Distríbuidos\\tp2_sd (1)\\EuroMilhoesCliente\\EuroMilhoesCliente\\EuroMilhoesCliente.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.38.0, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
